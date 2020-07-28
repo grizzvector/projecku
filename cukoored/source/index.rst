@@ -13,14 +13,23 @@ Cuckoo Red Team:
 
 .. code-block:: shell
 
-   print "selamat datang"
-   >> selamat datang
-
+   Created by..
+   Agorskuy
+   Inoskuy
+   Berskuy
+   Merzkuy
+   and Munnskuy
+   
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
    
    pendahuluan/ini
+   Installation/instal 
+   Penggunaan/unu
+   Pengembangan/dev
+   Remarks/rem 
+   
 
 
 Indices and tables
