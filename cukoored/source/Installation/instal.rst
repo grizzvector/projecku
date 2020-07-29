@@ -31,6 +31,7 @@ dieprlukan, jalankan command berikut :
 
 
 $ sudo apt-get install mongodb
+
 .. image:: mongodb.png
 
 Selanjutnya pada pembangunan Cuckoo, digunakan databse PostgreSQL. Lakukan instalasi PostgreSQL dengan perintah: 
