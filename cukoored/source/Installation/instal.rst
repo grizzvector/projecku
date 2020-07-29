@@ -12,8 +12,13 @@ A. Instalasi Python libraries (on Ubuntu/Debian-based distributions)
 Komponen host Cuckoo sepenuhnya ditulis dalam Python, oleh karena itu diperlukan untuk menginstal versi Python yang sesuai.
 
 Lakukan install pada software berikut agar Cuckoo dapat berjalan dengan sempurna :
-       
-.. image:: gambar1.png
+
+$ sudo apt-get install python python-pip python-dev libffi-dev libssl-dev
+
+$ sudo apt-get install python-virtualenv python-setuptools
+
+$ sudo apt-get install libjpeg-dev zlib1g-dev swig
+
 
 .. image:: gambar2.png
 
@@ -25,7 +30,7 @@ Untuk dapat menggunakan Web-interface berbasis Django, MongoDB akan
 dieprlukan, jalankan command berikut :
 
 
-.. image:: gambar5.png
+$ sudo apt-get install mongodb
 .. image:: mongodb.png
 
 Selanjutnya pada pembangunan Cuckoo, digunakan databse PostgreSQL. Lakukan instalasi PostgreSQL dengan perintah: 
