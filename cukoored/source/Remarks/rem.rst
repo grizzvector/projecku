@@ -1,6 +1,8 @@
 Remarks Cuckoo
 ==============
 
-contact: fernando@gmail.com
+Pada penegmbangan pembuatan Cuckoo sebagai sandbox malware analysis, kami mengalami sedikit kendala terkait tidak mendunkungnya server yang kami gunakan. Hal itu mengakibatkan terjadinya error pada saat melakukan pembuatan virtual mesin windows sebagai sandbox. 
 
-Cuckoo Sandbox adalah tools opensource yang digunakan untuk mengotomatisasi analisis file yang mencurigakan. Untuk melakukannya, Cuckoo menggunakan komponen khusus yang memantau perilaku proses berbahaya saat berjalan di lingkungan yang terisolasi. 
+Supporter
+^^^^^^^^^
+Terimakasih kepada Bang Indra, selaku dosen dari mata kuliah Aplikasi Berbahaya yang telah mendukung kami dengan sungguh-sungguh dalam memabntu kami dalam penggerjaan instalasi Cuckoo.
