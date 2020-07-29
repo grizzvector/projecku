@@ -3,22 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to cuckoored's documentation!
+Welcome to Cuckoo Red's documentation!
 =====================================
 
-Cuckoo Installation
-===================
-
-Cuckoo Red Team:
+Cuckoo Red Team
 
 .. code-block:: shell
 
-   Created by..
-   Agorskuy
-   Inoskuy
-   Berskuy
-   Merzkuy
-   and Munnskuy
+   Dokuemntasi ini dibuat oleh.
+   - Aldino Dika Pratama 
+   - Berry Karo-karo
+   - Catur Adi Nugroho
+   - Fernando Meyrzalino
+   - Munna Husseini
    
 .. toctree::
    :maxdepth: 3
