@@ -23,9 +23,5 @@ Halaman ini merupakan progress pengembangan dari instalasi Cuckoo setiap minggu 
 ^^^^^^^^^^^
 
 .. code-block:: shell
-
- IP : 103.206.253.181
-
- username : pssn
-
- password : pssn1234!
+ 
+http://103.206.253.181:8000
