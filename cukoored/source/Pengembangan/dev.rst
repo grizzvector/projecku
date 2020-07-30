@@ -5,7 +5,9 @@ Halaman ini merupakan progress pengembangan dari instalasi Cuckoo setiap minggu 
 
 Git Branches
 ^^^^^^^^^^^^
-https://github.com/grizzvector/projecku.git
+.. code-block:: shell
+
+ https://github.com/grizzvector/projecku.git
 
 Objective Progress
 ^^^^^^^^^^^^^^^^^^
@@ -20,8 +22,10 @@ Objective Progress
 VPS Link
 ^^^^^^^^
 
-IP : 103.206.253.181
+.. code-block:: shell
 
-username : pssn
+ IP : 103.206.253.181
 
-password : pssn1234!
+ username : pssn
+
+ password : pssn1234!
