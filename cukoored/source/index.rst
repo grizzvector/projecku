@@ -10,7 +10,7 @@ Cuckoo Red Team
 
 .. code-block:: shell
 
-   Dokuemntasi ini dibuat oleh.
+   Dokuementasi ini dibuat oleh.
    - Aldino Dika Pratama 
    - Berry Karo-karo
    - Catur Adi Nugroho
