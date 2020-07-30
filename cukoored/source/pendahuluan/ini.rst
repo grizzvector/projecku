@@ -9,15 +9,15 @@ Pendahuluan Cuckoo
 
 Cuckoo Sandbox merupakan software yang bersifat open source yang digunakan dalam melakukan analisis malware secara otomatis. Cuckoo Sandbox merupakan salah satu dari sekian banyak tool untuk melakukan analisis malware, diketahui bahwa Cuckoo Sandbox masuk dalam kategori tool analisis malware dinamis. Metode analisis malware dinamis dilakukan dengan cara menjalankan malware pada komputer disertai mempelajari perilaku malware tersebut di komputer. Bahwa malware yang bersangkutan akan menginfeksi komputer dengan dampak diantaranya memodifikasi sistem, menjalankan layanan tertentu, menghapus direktori, dan lain-lain. Oleh karena itu penggunaan Cuckoo Sandbox sebagai tool analisis malware dapat dijadikan sebagai solusi untuk mengurangi dampak resiko kerusakan pada komputer akibat dari malware, dengan cara melakukan isolasi malware tersebut dari komputer. Dilanjutkan dengan memberikan laporan sebagai hasil dari perilaku malware pada komputer. Berikut hasil analisis dari Cuckoo Sandbox, diantaranya :
 
-a.File yang dibuat, dihapus, dan diunduh akibat aktivitas malware 
+- File yang dibuat, dihapus, dan diunduh akibat aktivitas malware 
 
-b.API calls yang ditimbulkan oleh malware
+- API calls yang ditimbulkan oleh malware
 
-c.Aktivitas malware di memori atau memory dumps
+- Aktivitas malware di memori atau memory dumps
 
-d.Jejak lalu lintas jaringan dalam format PCAP
+- Jejak lalu lintas jaringan dalam format PCAP
 
-e.Screenshot yang diambil selama eksekusi malware
+- Screenshot yang diambil selama eksekusi malware
 
 2. Awal dibuatnya Cuckoo Malware Analysis Sandbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -39,17 +39,18 @@ Pada 21 Februari 2016 versi 2.0 Release Candidate 1 dirilis. Versi ini diklaim s
 3. Penggunaan Cuckoo
 ^^^^^^^^^^^^^^^^^^^^
 Cuckoo Sandbox didesain untuk digunakan baik sebagai aplikasi atau bisa juga sebagai integrasi dalam rangka kerja atau proyek yang lebih besar, dikarenakan desainnya yang modular. Selanjutnya Cuckoo Sandbox dapat digunakan untuk menganalisis sebagai berikut :
-a.File DLL
 
-b.Dokumen PDF
+- File DLL
 
-c.Dokumen Microsoft Office
+- b.Dokumen PDF
 
-d.URL dan file HTML
+- c.Dokumen Microsoft Office
 
-e.Skrip PHP
+- URL dan file HTML
 
-f.File ZIP
+- Skrip PHP
+
+- File ZIP
 
 g.Java JAR
 
