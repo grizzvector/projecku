@@ -9,19 +9,26 @@ Untuk penggunaa cuckoo, jalankan cuckoo, rooter, dan web interface cuckoo pada t
 
 1. Pada terminal 1, dilakukan untuk menjalankan perintah agar rooter dapat digunakan oleh group PSSN. 
 
-$ cuckoo rooter –sudo –group pssn
+.. code-block:: shell
+
+ $ cuckoo rooter –sudo –group pssn
+
 
 .. image:: 1.PNG
 
 2. Selanjutnya, Pada terminal 2, jalankan virtual environment yang telah dibuat pada langkah sebelumnya. 
 
-$virtualenv -p python2.7 cuckoo-test
+.. code-block:: shell
+
+ $virtualenv -p python2.7 cuckoo-test
 
 .. image:: 2.PNG
 
 3. Pada terminal 3, jalankan web interface cuckoo untuk mempermudah dalam melihat analisis dan memonitor  cuckoo.
 
-$cuckoo web –host 0.0.0.0 –port 8000
+.. code-block:: shell
+
+ $cuckoo web –host 0.0.0.0 –port 8000
 
 .. image:: 3.PNG
 
