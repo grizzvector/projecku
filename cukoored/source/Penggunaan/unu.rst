@@ -2,8 +2,8 @@ Penggunaan Cuckoo
 =================
 
 
-Menajalankan Cuckoo
-^^^^^^^^^^^^^^^^^^^
+1. Menajalankan Cuckoo
+^^^^^^^^^^^^^^^^^^^^^^
 
 Untuk penggunaa cuckoo, jalankan cuckoo, rooter, dan web interface cuckoo pada terminal yang berbeda.
 
@@ -36,8 +36,8 @@ Untuk penggunaa cuckoo, jalankan cuckoo, rooter, dan web interface cuckoo pada t
 
 .. image:: 4.PNG
 
-Cuckoo Interface
-^^^^^^^^^^^^^^^^
+2. Cuckoo Interface
+^^^^^^^^^^^^^^^^^^^
 Setelah menjalankan ketiga perintah diatas, buka engine browser dan akses alamat IP cuckoo dengan port yang telah di konfigurasikan.
 
 .. image:: 5.PNG
