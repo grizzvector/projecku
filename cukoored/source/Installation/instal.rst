@@ -3,12 +3,14 @@ Instalasi
 
 contact: fernando@gmail.com
 
-Requirements
-^^^^^^^^^^^^
+1. Requirements
+^^^^^^^^^^^^^^^
 
 Sebelum melakukan instalasi dan melakukan konfiguasi pada Cuckoo, ada beberapa software dan libraries yang dibutuhkan
 
-A. Instalasi Python libraries (on Ubuntu/Debian-based distributions)
+1.1 Instalasi Python libraries 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Komponen host Cuckoo sepenuhnya ditulis dalam Python, oleh karena itu diperlukan untuk menginstal versi Python yang sesuai.
 
 Lakukan install pada software berikut agar Cuckoo dapat berjalan dengan sempurna :
@@ -45,7 +47,8 @@ Selanjutnya pada pembangunan Cuckoo, digunakan databse PostgreSQL. Lakukan insta
 
 .. image:: postgrest.png
 
-B. Virtualization Software
+1.2 Virtualization Software
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Melakukan instalasi VirtualBox dari repositori VirtualBox untuk mendapatkan versi virtualbx rilisan terbaru. Pentingnya melakukan hal tersebut untuk meningkatkan keamanan pada lapisan virtualisasi. menjalankan command berikut :
 
@@ -72,7 +75,8 @@ Setelah kebutuhan awal virtualbox terpenuhi, langkah selanjutnya adalah dengan m
 .. image:: virtualbox.png
 
 
-C. Instalasi TCPDump
+1.3 Instalasi TCPDump
+~~~~~~~~~~~~~~~~~~~~~
 
 Untuk membuang aktivitas jaringan yang dilakukan oleh malware selama eksekusi berlangsung, diperlukan sniffer jaringan dengan konfigurasi yang benar untuk melakukan tangkapan log lalu lintas. Secara default Cuckoo menggunakan tcpdump dalam melakukan sniffer jaringan. Lakukan instalasi tcpdump dengan menggunakan perintah berikut:
 
@@ -112,7 +116,8 @@ Selanjutnya adalah dengan melakukan konfigurasi AppArmor (aa),  Hal ini bertujua
 
 .. image:: gambar12.png
 
-D. Instalasi M2Crypto
+1.4 Instalasi M2Crypto
+~~~~~~~~~~~~~~~~~~~~~~
 
 Langkah selanjutnya dalam mempersiapkan Cuckoo malware analysis adalah dengan dapat menginstal M2Crypto  menggunakan perintah sebagai berikut:
 
@@ -123,11 +128,12 @@ Langkah selanjutnya dalam mempersiapkan Cuckoo malware analysis adalah dengan da
 .. image:: gambar13.png
 
 
-Cuckoo Installation
-^^^^^^^^^^^^^^^^^^^
+2. Cuckoo Installation
+^^^^^^^^^^^^^^^^^^^^^^
 Setelah tahap instalasi awal, barulah Cukoo dapat dipasang pada server yang akan digunakan untuk melakukan analisis malware.
 
-A. Create user
+2.1 Create user
+~~~~~~~~~~~~~~~
 Cuckoo dapat dijalankan melalui host OS sendiri atau membuat environment baru pada Virtual Machine. Karena Cuckoo yang akan di install menggunakan Virtualbox, masukan pengguna ke dalam grup vboxuser, agar dapat mengakses VirtualBox, dengan menjalankan perintah:
 
 .. code-block:: shell
@@ -136,7 +142,8 @@ Cuckoo dapat dijalankan melalui host OS sendiri atau membuat environment baru pa
 
 .. image:: gambar14.png
 
-B. Cuckoo Installation
+2.2 Cuckoo Installation
+~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Lakukan Setup Virtualenv dengan melakukan pembaruan dan lakukan instalasi virtualenv, dengan menggunakan perintah :
 
@@ -240,8 +247,8 @@ $ pip3 completion --bash >> ~/.bashrc
 
 .. image:: gambar28.png
 
-VMCloak Installation
-^^^^^^^^^^^^^^^^^^^^
+3. VMCloak Installation
+^^^^^^^^^^^^^^^^^^^^^^^
 Pada tahap ini akan melakukan instalasi beberapa paket sebelum melakukan instalasi Cuckoo dan VMCloak, agar depedensi yang dibutuhkan terpenuhi, sehingga dapat berjalan dengan sesuai.
 
 1. Lakukan instalasi paket Cuckoo dan VMCloak dengan perintah:
@@ -272,8 +279,8 @@ Pada tahap ini akan melakukan instalasi beberapa paket sebelum melakukan instala
 
 .. image:: gambar32.png
 
-Automatic CM Creation
-^^^^^^^^^^^^^^^^^^^^^
+4. Automatic CM Creation
+^^^^^^^^^^^^^^^^^^^^^^^^
 Pada tahap ini akan dilakukan instalasi windows secara manual, meginstal software yang dibutuhkan, serta melakukan modifikasi lainnya. Untuk membuat VM secara otomatis, lakukan langkah sebagai berikut;
 
 1. Menentukan dan membuat jaringan Host-Only VirtualBox untuk digunakan oleh Virtual Machine, dengan perintah:
@@ -323,8 +330,8 @@ Pada tahap ini akan dilakukan instalasi windows secara manual, meginstal softwar
 
 .. image:: gambar37.png
 
-Cuckoo Configuration
-^^^^^^^^^^^^^^^^^^^^
+5. Cuckoo Configuration
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Cuckoo memiliki konfigurasi file, signature, dan file-file yang dapat diubah oleh penggunanya. Yang berada di Cuckoo Working Directory (CWD). Secara default file tersebut berada pada $USERHOME/.cuckoo. 
 
