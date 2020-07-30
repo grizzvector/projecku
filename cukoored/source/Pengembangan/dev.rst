@@ -3,14 +3,14 @@ Pengembangan dan Kustomisasi Cuckoo
 
 Halaman ini merupakan progress pengembangan dari instalasi Cuckoo setiap minggu yang kami lakukan. #Team2Red
 
-Git Branches
-^^^^^^^^^^^^
+1. Git Branches
+^^^^^^^^^^^^^^^
 .. code-block:: shell
 
  https://github.com/grizzvector/projecku.git
 
-Objective Progress
-^^^^^^^^^^^^^^^^^^
+2. Objective Progress
+^^^^^^^^^^^^^^^^^^^^^
 - 25 Juni 2020 : Menginstall kebutuhan dasar untuk penggunaan Cuckoo
 
 - 2 juli 2020 : Instalasi Virtualbox dan ISO Windows sebagai sandbox
@@ -19,8 +19,8 @@ Objective Progress
 
 - 16 Juli 2020 : Analisis Malware dari Crawling Dianoea menggunakan Cuckoo 
 
-VPS Link
-^^^^^^^^
+3. VPS Link
+^^^^^^^^^^^
 
 .. code-block:: shell
 
