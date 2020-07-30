@@ -52,8 +52,8 @@ Cuckoo Sandbox didesain untuk digunakan baik sebagai aplikasi atau bisa juga seb
 
 - File ZIP
 
-g.Java JAR
+- Java JAR
 
-F  Python FIle
+- Python FIle
 
 
