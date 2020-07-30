@@ -5,4 +5,4 @@ Pada penegmbangan pembuatan Cuckoo sebagai sandbox malware analysis, kami mengal
 
 Supporter
 ^^^^^^^^^
-Terimakasih kepada Bang Indra Adi Putra, selaku dosen dari mata kuliah Aplikasi Berbahaya yang telah mendukung kami dengan sungguh-sungguh dalam memabntu kami dalam penggerjaan instalasi Cuckoo.
+Terimakasih kepada Bang Indra Adi Putra, selaku dosen dari mata kuliah Aplikasi Berbahaya yang telah mendukung kami dengan sungguh-sungguh dalam memabantu kami dalam penggerjaan instalasi Cuckoo.
